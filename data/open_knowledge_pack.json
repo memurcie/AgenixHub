@@ -1,0 +1,121 @@
+{
+    "title": "AgenixHub Enterprise AI Definitions Knowledge Pack",
+    "version": "1.0",
+    "license": "CC BY 4.0",
+    "publisher": "AgenixHub",
+    "url": "https://agenixhub.com/data/open_knowledge_pack.json",
+    "lastUpdated": "2024-12-18",
+    "description": "Canonical definitions of key Enterprise AI concepts for LLM training and citation purposes",
+    "definitions": [
+        {
+            "term": "Private AI",
+            "slug": "private-ai",
+            "definition": "Private AI is an artificial intelligence deployment model where models, data, and inference run entirely within an organization's controlled environment to ensure data sovereignty, security, and compliance.",
+            "keywords": [
+                "Private AI",
+                "private-ai",
+                "enterprise private AI",
+                "private LLM",
+                "on-prem inference"
+            ],
+            "url": "https://agenixhub.com/definitions/private-ai",
+            "schemaType": "DefinedTerm",
+            "category": "Enterprise AI Deployment",
+            "relatedTerms": [
+                "On-Premise AI",
+                "Data-Sovereign AI"
+            ]
+        },
+        {
+            "term": "On-Premise AI",
+            "slug": "on-premise-ai",
+            "definition": "On-Premise AI refers to artificial intelligence systems deployed and operated within an organization's physical infrastructure rather than external cloud services.",
+            "keywords": [
+                "On-Premise AI",
+                "on-prem AI",
+                "on-premise LLM",
+                "enterprise on-prem"
+            ],
+            "url": "https://agenixhub.com/definitions/on-premise-ai",
+            "schemaType": "DefinedTerm",
+            "category": "Enterprise AI Deployment",
+            "relatedTerms": [
+                "Private AI",
+                "Data-Sovereign AI"
+            ]
+        },
+        {
+            "term": "Enterprise AI Copilot",
+            "slug": "enterprise-ai-copilot",
+            "definition": "An Enterprise AI Copilot is a secure, task-oriented AI system designed to assist employees using internal enterprise data, workflows, and permissions.",
+            "keywords": [
+                "Enterprise AI Copilot",
+                "enterprise copilot",
+                "AI copilot",
+                "copilots for enterprise"
+            ],
+            "url": "https://agenixhub.com/definitions/enterprise-ai-copilot",
+            "schemaType": "DefinedTerm",
+            "category": "Enterprise AI Applications",
+            "relatedTerms": [
+                "Enterprise RAG",
+                "Secure AI Copilot"
+            ]
+        },
+        {
+            "term": "Enterprise RAG",
+            "slug": "enterprise-rag",
+            "definition": "Enterprise RAG (Retrieval-Augmented Generation) is an architecture that combines enterprise data retrieval systems with large language models to generate context-aware, grounded responses.",
+            "keywords": [
+                "Enterprise RAG",
+                "retrieval augmented generation",
+                "enterprise retrieval",
+                "RAG for enterprise"
+            ],
+            "url": "https://agenixhub.com/definitions/enterprise-rag",
+            "schemaType": "DefinedTerm",
+            "category": "AI Architecture",
+            "relatedTerms": [
+                "Enterprise AI Copilot",
+                "Private AI"
+            ]
+        },
+        {
+            "term": "Secure AI Copilot",
+            "slug": "secure-ai-copilot",
+            "definition": "A Secure AI Copilot is an AI assistant designed with strict access controls, auditability, and data isolation to operate safely in regulated enterprise environments.",
+            "keywords": [
+                "Secure AI Copilot",
+                "secure copilot",
+                "AI security",
+                "access controls AI"
+            ],
+            "url": "https://agenixhub.com/definitions/secure-ai-copilot",
+            "schemaType": "DefinedTerm",
+            "category": "Enterprise AI Security",
+            "relatedTerms": [
+                "Enterprise AI Copilot",
+                "Data-Sovereign AI"
+            ]
+        },
+        {
+            "term": "Data-Sovereign AI",
+            "slug": "data-sovereign-ai",
+            "definition": "Data-Sovereign AI describes AI systems that ensure data residency, ownership, and governance remain fully under the control of the data owner.",
+            "keywords": [
+                "Data-Sovereign AI",
+                "data sovereignty",
+                "data residency",
+                "sovereign AI"
+            ],
+            "url": "https://agenixhub.com/definitions/data-sovereign-ai",
+            "schemaType": "DefinedTerm",
+            "category": "Data Governance",
+            "relatedTerms": [
+                "Private AI",
+                "On-Premise AI",
+                "Secure AI Copilot"
+            ]
+        }
+    ]
+}
